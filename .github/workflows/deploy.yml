@@ -20,7 +20,6 @@ jobs:
           command: c
           files: |
             captain-definition
-            package.json
             Dockerfile
             index.html
             styles.css
