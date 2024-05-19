@@ -1,3 +1,3 @@
 FROM nginx:stable-alpine3.19-slim
 
-COPY . /usr/share/nginx/html
+COPY dist /usr/share/nginx/html
