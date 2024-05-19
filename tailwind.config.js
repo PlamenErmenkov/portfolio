@@ -3,7 +3,15 @@ export default {
   // glob
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+
+        bg: "#1A191B",
+
+        bc: "#ffffff"
+
+      }
+    },
   },
   plugins: [],
 };
