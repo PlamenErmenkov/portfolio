@@ -2,8 +2,8 @@ import { GlobeDemo } from './DemoGlobe.tsx';
 
 export default function Landing() {
   return (
-    <section className="dev flex sm:flex-row flex-col h-[calc(100vh_-_5rem)] items-center ">
-      <div className="flex-1 dev">
+    <section className=" flex sm:flex-row flex-col h-[calc(100vh_-_5rem)] items-center ">
+      <div className="flex-1 ">
         <p className="items-center flex gap-x-2 uppercase font-semibold text-lg tracking-wider">
           <span className="block w-8 h-[2px] bg-bc "></span>Unify
         </p>
@@ -33,7 +33,7 @@ export default function Landing() {
         </button>
       </div>
 
-      <div className="flex-1 dev">
+      <div className="flex-1 ">
         <GlobeDemo />
       </div>
     </section>
